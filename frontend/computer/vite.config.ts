@@ -7,4 +7,7 @@ export default defineConfig({
   server: {
     port: 5000, // <-- change the dev server port here
   },
+  build: {
+    outDir: "build", // 👈 tells Vite to output to ./build
+  },
 });
